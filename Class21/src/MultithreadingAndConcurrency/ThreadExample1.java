@@ -6,7 +6,7 @@ public class ThreadExample1 extends Thread{
 	public void run() {
 		
 		try {
-		for(int i=1; i<=10; i++) {
+		for(int i=1; i<=5; i++) {
 			System.out.println("ADDIE Soft Ltd.");
 			Thread.sleep(1000);
 			/* Here sleep(1000) is used to delay the output for 1 sec. 
