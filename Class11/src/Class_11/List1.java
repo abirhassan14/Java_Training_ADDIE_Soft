@@ -11,6 +11,7 @@ public class List1 {
 		list.add ("Nibir");
 		list.add ("Meher");
 		System.out.println(list);
+		System.out.println("Orange is orange");
 		
 		list.add(2, "Hassan");  // To set another data at a specific index 
 		System.out.println(list);
