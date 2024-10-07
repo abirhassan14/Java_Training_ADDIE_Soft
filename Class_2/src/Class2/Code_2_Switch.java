@@ -6,7 +6,7 @@ public class Code_2_Switch {
 
 	public static void main(String[] args) {
 		
-		int a;
+		int a, b;
 		Scanner obj = new Scanner (System.in);
 		
 	   	 System.out.println("Please enter your value of a:");
