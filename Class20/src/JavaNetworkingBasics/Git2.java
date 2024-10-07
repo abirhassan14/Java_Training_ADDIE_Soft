@@ -8,8 +8,6 @@ public class Git2 {
 		int Github = git+hub;
 		System.out.println(Github);
 		System.out.println(Github*git);
-
-
 	}
 
 }

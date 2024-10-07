@@ -10,7 +10,8 @@ public class BufferedOuputStreamEx {
 
 	public static void main(String[] args) throws IOException{
 		
-		BufferedOutputStream buff = new BufferedOutputStream(new FileOutputStream("C:\\Md. Abir Hassan\\Class-16_30 sept\\File_Buffered.txt"));
+		BufferedOutputStream buff = new BufferedOutputStream
+				(new FileOutputStream("C:\\Md. Abir Hassan\\Class-16_30 sept\\File_Buffered.txt"));
 		buff.write("My name is Abir \n" .getBytes());
 		buff.write("Orange \n" .getBytes());
 		buff.write("Mango \n" .getBytes());
@@ -19,7 +20,8 @@ public class BufferedOuputStreamEx {
 		
 		System.out.println("File Written Successfully \n \n");
 
-		BufferedInputStream buff1 = new BufferedInputStream(new FileInputStream("C:\\Md. Abir Hassan\\Class-16_30 sept\\File_Buffered.txt"));
+		BufferedInputStream buff1 = new BufferedInputStream
+				(new FileInputStream("C:\\Md. Abir Hassan\\Class-16_30 sept\\File_Buffered.txt"));
 		int reader ;
 		while((reader = buff1.read()) != -1 ) {
 			System.out.print((char) reader);
