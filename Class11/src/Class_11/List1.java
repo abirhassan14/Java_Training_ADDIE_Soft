@@ -10,6 +10,8 @@ public class List1 {
 		list.add ("Abir");
 		list.add ("Nibir");
 		list.add ("Meher");
+		System.out.println(list);
+		
 		list.add(2, "Hassan");  // To set another data at a specific index 
 		System.out.println(list);
 		
